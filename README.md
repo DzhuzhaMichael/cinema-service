@@ -1,5 +1,5 @@
 # Cinema Service
-
+![](../../Desktop/cinema-cervice.png)
 
 The application proposes a simple data management system for cinema ticket ordering.
 
@@ -41,6 +41,6 @@ the new user is created);
 >1. Configure Apache Tomcat for your IDE;
 >2. Configure <strong><em>src/main/resources/db.properties</em></strong> using your URL, USERNAME, PASSWORD, JDBC_DRIVER;
 >3. Run the program;
->4. Now you can use all the features (<strong>REMARK:</strong> after the application has been started, you would have two default users:
-    <em>admin@mail.com, password: admin123</em> and <em>user@mail.com, password: user456</em>. You can use them to
-    achieve the endpoint you need).
+>4. Now you can use all the features (<strong>REMARK:</strong> after the application has been started, you 
+    would have two default users:`admin@mail.com` password:`admin123` and `user@mail.com` password:`user456`. 
+    You can use them to achieve the endpoint you need).
