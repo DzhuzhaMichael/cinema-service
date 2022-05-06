@@ -2,11 +2,13 @@ package cinema.dto.request;
 
 import cinema.util.DateTimePatternUtil;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Getter;
 import java.time.LocalDateTime;
 import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 
+@Getter
 public class MovieSessionRequestDto {
     @Positive
     private Long movieId;
@@ -16,16 +18,4 @@ public class MovieSessionRequestDto {
     @FutureOrPresent
     @JsonFormat(pattern = DateTimePatternUtil.DATE_TIME_PATTERN)
     private LocalDateTime showTime;
-
-    public Long getMovieId() {
-        return movieId;
-    }
-
-    public Long getCinemaHallId() {
-        return cinemaHallId;
-    }
-
-    public LocalDateTime getShowTime() {
-        return showTime;
-    }
 }
