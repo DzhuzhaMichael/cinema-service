@@ -1,5 +1,6 @@
 # Cinema Service
-![](../../Desktop/cinema-cervice.png)
+![cinema-cervice](https://user-images.githubusercontent.com/92114777/167247590-b883732f-a439-43e6-b481-e3a1f42767e4.png)
+
 
 The application proposes a simple data management system for cinema ticket ordering.
 
